@@ -1,0 +1,54 @@
+0000000000003d88 d _DYNAMIC
+0000000000003f88 d _GLOBAL_OFFSET_TABLE_
+0000000000001279 t _GLOBAL__sub_I_main
+0000000000002000 R _IO_stdin_used
+                 w _ITM_deregisterTMCloneTable
+                 w _ITM_registerTMCloneTable
+000000000000122c t __static_initialization_and_destruction_0(int, int)
+00000000000012ae W A::getMa()
+0000000000001292 W A::A(int)
+0000000000001292 W A::A(int)
+00000000000012c2 W B::B(int, int)
+00000000000012c2 W B::B(int, int)
+00000000000012f6 W C::C(int, int)
+00000000000012f6 W C::C(int, int)
+0000000000001384 W D::func()
+000000000000132a W D::D(int, int, int, int)
+000000000000132a W D::D(int, int, int, int)
+                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))@@GLIBCXX_3.4
+                 U std::ostream::operator<<(int)@@GLIBCXX_3.4
+                 U std::ios_base::Init::Init()@@GLIBCXX_3.4
+                 U std::ios_base::Init::~Init()@@GLIBCXX_3.4
+0000000000004040 B std::cout@@GLIBCXX_3.4
+                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)@@GLIBCXX_3.4
+0000000000002004 r std::piecewise_construct
+0000000000004151 b std::__ioinit
+0000000000002294 r __FRAME_END__
+0000000000002008 r __GNU_EH_FRAME_HDR
+0000000000004010 D __TMC_END__
+0000000000004010 B __bss_start
+                 U __cxa_atexit@@GLIBC_2.2.5
+                 w __cxa_finalize@@GLIBC_2.2.5
+0000000000004000 D __data_start
+0000000000001180 t __do_global_dtors_aux
+0000000000003d80 d __do_global_dtors_aux_fini_array_entry
+0000000000004008 D __dso_handle
+0000000000003d70 d __frame_dummy_init_array_entry
+                 w __gmon_start__
+0000000000003d80 d __init_array_end
+0000000000003d70 d __init_array_start
+0000000000001470 T __libc_csu_fini
+0000000000001400 T __libc_csu_init
+                 U __libc_start_main@@GLIBC_2.2.5
+                 U __stack_chk_fail@@GLIBC_2.4
+0000000000004010 D _edata
+0000000000004158 B _end
+0000000000001478 T _fini
+0000000000001000 t _init
+00000000000010e0 T _start
+0000000000004150 b completed.8060
+0000000000004000 W data_start
+0000000000001110 t deregister_tm_clones
+00000000000011c0 t frame_dummy
+00000000000011c9 T main
+0000000000001140 t register_tm_clones

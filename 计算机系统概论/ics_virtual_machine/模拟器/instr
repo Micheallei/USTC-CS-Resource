@@ -1,0 +1,22 @@
+setbk
+execute_step
+execute_all
+help
+load_file filename
+SetReg regnum
+Setmemory address
+clear all
+exit
+show
+--sb (address)(setbk);
+--sr (regnum val)(setreg,0-8,8 is PC) ; 
+--sm (address val)(set memory) ;
+--l (filename)(load_file) ;
+--e(execute_step) ;
+--E:(execute_all) ;
+--cb (clear breakpoints) ; 
+--cm (clear memory);
+--cr (clear register);
+--o(show) ; 
+--t(exit) ;
+--v address(看以addr为起始的10的内存)
